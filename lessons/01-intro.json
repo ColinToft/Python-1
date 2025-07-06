@@ -1,0 +1,114 @@
+{
+  "title": "Introduction",
+  "description": "Discover why we need programming languages like Python, and invent the idea of interpreters and compilers.",
+  "start_screen": "q1",
+  "screens": [
+    {
+      "id": "q1",
+      "type": "question",
+      "prompt": "What do computers understand?",
+      "choices": [
+        "English",
+        "Emojis", 
+        "*0s and 1s",
+        "Python"
+      ],
+      "end_comment": "Yup, just 1s and 0s. Not exactly easy to read, huh?"
+    },
+    {
+      "id": "q2",
+      "type": "question",
+      "prompt": "Can you guess what this does? `10110000 01100001`",
+      "choices": [
+        "Add two numbers",
+        "*Load something into memory",
+        "Turn the computer off",
+        "Make popcorn"
+      ],
+      "end_comment": "It just loads a number into memory—but who could guess that from those numbers?"
+    },
+    {
+      "id": "q3",
+      "type": "question",
+      "prompt": "If writing code like that is so hard… could we invent a better way to give commands?",
+      "choices": [
+        "*Yes",
+        "No"
+      ],
+      "end_comment": "Let's try using something easier, like real words or symbols!"
+    },
+    {
+      "id": "q4",
+      "type": "question",
+      "prompt": "Here's a line in your new language: print(\"Hello!\") — will the computer understand it?",
+      "choices": [
+        "Yes",
+        "*No"
+      ],
+      "end_comment": "Even though we understand that, the computer still only understands 1s and 0s. So… we need something to translate!"
+    },
+    {
+      "id": "q5",
+      "type": "question",
+      "prompt": "What could help turn our code into 1s and 0s?",
+      "choices": [
+        "Another person",
+        "*A special program",
+        "Google Translate",
+        "Magic"
+      ],
+      "end_comment": "Let's build a program that turns our code into machine code!"
+    },
+    {
+      "id": "q6",
+      "type": "dialogue",
+      "dialogue": [
+        {
+          "speaker": "lumi",
+          "text": "What if our translator reads one line of code at a time, and runs it right away? Fast to test!"
+        },
+        {
+          "speaker": "nova",
+          "text": "Or we could have it read the entire program first, turn the whole thing into 1s and 0s, and then run it! That might be faster later."
+        }
+      ]
+    },
+    {
+      "id": "q7",
+      "type": "question",
+      "prompt": "Which idea do you like better?",
+      "choices": [
+        "Lumi's: line-by-line",
+        "Nova's: all at once",
+        "Not sure"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "info",
+      "content": "Both are real strategies for running code.|Translating the whole program first is called compiling.|Translating one line at a time is called interpreting."
+    },
+    {
+      "id": "q9",
+      "type": "question",
+      "prompt": "Based on what we've seen, which one do you think Python uses?",
+      "choices": [
+        "Compiling",
+        "*Interpreting",
+        "Both",
+        "Neither"
+      ],
+      "end_comment": "Right! Python uses an interpreter, so it can run your code right away—great for learning and quick changes. Let's go write our first real line of Python!"
+    },
+    {
+      "id": "end",
+      "type": "end",
+      "summary": [
+        "✅ Computers understand binary, not English.",
+        "✅ We invented a readable language—but we need to translate it.",
+        "✅ You discovered two ways to do that: compiling and interpreting.",
+        "✅ Python is interpreted!"
+      ]
+    }
+  ]
+}
